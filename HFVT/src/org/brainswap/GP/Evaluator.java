@@ -38,7 +38,7 @@ public Evaluator(String lisp) {
 		high = new Variable("high", Double.class);
 		low = new Variable("low", Double.class);
 		last = new Variable("last", Double.class);
-		intRet = new Variable("intRet", Double.class);
+		intRet = new Variable("intRet ", Double.class);
 		 List<Variable> syntax = new ArrayList<Variable>();
 		
 
